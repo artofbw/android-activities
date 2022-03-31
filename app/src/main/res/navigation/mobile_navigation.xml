@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.exampleapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_bmi"
+        android:name="com.example.exampleapp.ui.bmi.BmiFragment"
+        android:label="@string/title_bmi"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/navigation_kcal"
+        android:name="com.example.exampleapp.ui.kcal.KcalFragment"
+        android:label="@string/title_kcal"
+        tools:layout="@layout/fragment_kcal" />
+    <fragment
+        android:id="@+id/navigation_recipes"
+        android:name="com.example.exampleapp.ui.recipes.RecipesFragment"
+        android:label="@string/title_recipes"
+        tools:layout="@layout/fragment_recipes" />
+</navigation>

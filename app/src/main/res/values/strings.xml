@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExampleApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_bmi">BMI</string>
+    <string name="title_kcal">KCAL</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="enter_weight">Enter weight (kg)</string>
+    <string name="enter_height">Enter height (cm)</string>
+    <string name="enter_age">Enter age</string>
+    <string name="bmi">Your BMI:</string>
+    <string name="kcal">Your BMR:</string>
+    <string name="bmi_value">0</string>
+    <string name="kcal_value">0</string>
+</resources>
